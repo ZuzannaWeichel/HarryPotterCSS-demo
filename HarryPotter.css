@@ -1,0 +1,115 @@
+body {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    background-color: #C5D4F9; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+ /*div{
+    display: inline-block;
+} */
+.scar{
+    margin-left: 45%;
+}
+.glasses{
+    margin-left: 35% ;
+}
+
+.top{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-bottom: 55px solid #260C1A;
+    
+    position: relative;
+    left: 20px;
+    transform: rotate(-10deg)
+}
+.mid{
+    width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 35px solid #260C1A;
+    border-bottom: 8px solid transparent;
+    transform: rotate(-10deg);
+}
+.bot{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-top: 55px solid #260C1A;
+    
+    position: relative;
+    left: 6px;
+    bottom: 6px;
+    transform: rotate(-10deg);
+}
+
+.leftSide,.rightSide{
+    height:100px;
+    width: 100px;
+    border-width: 10px;
+    border-style: ridge;
+    border-radius: 50%;
+    border-color: #191A1C;
+}
+.middle{
+    height: 20px;
+    width: 40px;
+    border-width: 10px;
+    border-top-style: ridge;
+    border-radius: 50%;
+    border-color: #191A1C;
+    position: relative;
+    left: 110px;
+    bottom: 80px;
+}
+.rightSide{
+    position: relative;
+    left: 140px;
+    bottom:150px;
+}
+
+.deathlyHollows{
+    margin-left: 40%;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 173.2px 100px;
+    border-color: transparent transparent #000000 transparent;
+}
+
+.innerOne{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 150px 85px;
+    border-color: transparent transparent #C5D4F9 transparent;
+    position: relative;
+    right: -12px;
+    bottom: 156px;
+}
+.innerTwo{ 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 0 0 85px;
+    border-color: transparent transparent transparent #C5D4F9;
+    position: relative;
+    left: 103px;
+    bottom: 306px;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 7px solid black;
+    position: relative;
+    bottom: 408px;
+    left: 48px;
+}
