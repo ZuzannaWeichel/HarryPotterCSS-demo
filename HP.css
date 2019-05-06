@@ -1,50 +1,29 @@
-body {
+body{
     font-family: 'Tangerine', cursive;
     text-align: center;
     background-color: #C5D4F9; 
-    margin-left: 20%;
-    margin-right: 20%;
 }
- /*div{
+div{
     display: inline-block;
-} */
+}
 .scar{
-    margin-left: 45%;
+    display: block;
 }
 .glasses{
-    margin-left: 38% ;
+    margin-top: 35px ;
+} 
+.deathlyHollows{
+    margin-left: 25%;
 }
 
-.top{
-    width: 0;
-	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-    border-bottom: 55px solid #260C1A;
-    
-    position: relative;
-    left: 20px;
-    transform: rotate(-10deg)
-}
-.mid{
-    width: 0;
-	height: 0;
-	border-top: 0px solid transparent;
-	border-right: 35px solid #260C1A;
-    border-bottom: 8px solid transparent;
-    transform: rotate(-10deg);
-}
-.bot{
-    width: 0;
-	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-    border-top: 55px solid #260C1A;
-    
-    position: relative;
-    left: 6px;
-    bottom: 6px;
-    transform: rotate(-10deg);
+.container {
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 600px;
 }
 
 .leftSide,.rightSide{
@@ -55,6 +34,7 @@ body {
     border-radius: 50%;
     border-color: #191A1C;
 }
+
 .middle{
     height: 20px;
     width: 40px;
@@ -63,18 +43,50 @@ body {
     border-radius: 50%;
     border-color: #191A1C;
     position: relative;
-    left: 110px;
-    bottom: 80px;
+    right: 10px;
+    bottom: 40px;
 }
 .rightSide{
     position: relative;
-    left: 140px;
-    bottom:150px;
+    right: 20px;
 }
 
-.deathlyHollows{
-    margin-left: 40%;
+.top{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-bottom: 55px solid #260C1A;
+    
+    position: relative;
+    bottom: 5px; 
+    transform: rotate(-13deg)
 }
+.mid{
+    width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 35px solid #260C1A;
+    border-bottom: 8px solid transparent;
+    transform: rotate(-10deg);
+    
+    position: relative;
+    right: 32px;
+}
+.bot{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-top: 55px solid #260C1A;
+    
+    position: relative;
+    right: 66px;
+    top: 49px;
+    transform: rotate(-10deg);
+}
+
+
 
 .triangle{
     width: 0;
@@ -83,7 +95,6 @@ body {
     border-width: 0 100px 173.2px 100px;
     border-color: transparent transparent #000000 transparent;
 }
-
 .innerOne{
     width: 0;
     height: 0;
@@ -91,8 +102,8 @@ body {
     border-width: 0px 0 150px 85px;
     border-color: transparent transparent #C5D4F9 transparent;
     position: relative;
-    right: -12px;
-    bottom: 156px;
+    right: 190px;
+    bottom: 7px;
 }
 .innerTwo{ 
     width: 0;
@@ -101,8 +112,8 @@ body {
     border-width: 150px 0 0 85px;
     border-color: transparent transparent transparent #C5D4F9;
     position: relative;
-    left: 103px;
-    bottom: 306px;
+    right: 188px;
+    bottom: 7px;
 }
 .circle{
     width: 90px;
@@ -110,6 +121,6 @@ body {
     border-radius: 50%;
     border: 7px solid black;
     position: relative;
-    bottom: 408px;
-    left: 48px;
+    bottom: 114px;
+    right: 88px;
 }
